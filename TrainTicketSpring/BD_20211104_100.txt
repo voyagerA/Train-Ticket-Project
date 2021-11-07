@@ -1,0 +1,11 @@
+PNR:BD_20211104_100
+Train No:1001
+Train Name:Shatabdi Express
+From:Bangalore
+To:Delhi
+Travel Date:Thu Nov 04 13:18:08 IST 2021
+Passengers:
+	Name 		 Age 	 Gender 	 Fare 
+	a		22		F		2250.0
+
+Total Price:2250.0

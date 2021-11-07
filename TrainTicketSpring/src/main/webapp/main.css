@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script&display=swap');
+
+table{
+border-radius: 15px;
+background: black;
+padding: 20px;
+
+background-color: rgba(255, 0, 0, 0.3);
+font-family: 'Dancing Script', cursive;
+
+
+}
+
+table:hover{
+
+	-webkit-box-shadow: 0px 0px 22px 0px rgba(1,26,1,1);
+-moz-box-shadow: 0px 0px 22px 0px rgba(1,26,1,1);
+box-shadow: 0px 0px 22px 0px rgba(1,26,1,1);
+
+background-color: rgba(255, 0, 0, 0.3);
+font-family: 'Dancing Script', cursive;
+}
+
+b{
+color:red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background-image:url("https://www.toptal.com/designers/subtlepatterns/patterns/leaves.png");
+	margin-top: 10px;
+	line-height: 2cm;
+	font-family: 'Dancing Script', cursive;
+}
+
+.main {
+	font-family: 'Dancing Script', cursive;
+	align-items: center;
+	text-align: center;
+	background-color: #f3f7f3;
+	padding-top: 10vh;
+	width: 60%;
+	min-height: 90vh;
+	border-radius: 15px;
+	margin: 5vh auto;
+}
+
+.ticketMain {
+	padding-top: 10vh;
+}
+
+ul {
+	list-style: none;
+}
+
+#welcome {
+	margin-top: 20px;
+	margin: auto;
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 3.1em;
+	font-weight: 400;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+.btn {
+	cursor: pointer;
+	padding: 10px 15px;
+	font-size: 1.1em;
+	border: 1px solid #548784;
+	border-radius: 5px;
+	background-color: #548784;
+	color: #fff;
+	margin: 20px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.btn:hover {
+
+	border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 1px solid #b8ffc1;
+
+	background-color: #9fccb7;
+	border-color: #223446;
+	color: #223446;
+	transition: background-color 0.05s;
+	font-family: 'Dancing Script', cursive;
+}
+
+.btn:active {
+	background-color: #223446;
+	border-color: #223446;
+	color: #f3f7f3;
+	transition: background-color 0.05s;
+	font-family: 'Dancing Script', cursive;
+}
+
+#ticketForm {
+	margin: 20px auto;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10px;
+}
+
+#passengers {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.row label {
+	width: 200px;
+}
+
+.row .inputField {
+	width: 300px;
+}
+
+.pRow {
+	margin: 5px;
+	padding-left: 25px;
+	display: flex;
+	flex-direction: row;
+}
+
+.pRow label {
+	width: 175px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.pRow .inputField {
+	width: 250px;
+}
+
+.passengerDetails {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.inputField {
+	padding: 2px 5px;
+}
+
+.inputField option {
+	font-size: 1.2em;
+}
+
+
+.passengerNumber {
+	align-self: left;
+	margin-top: 15px;
+}
+
+#submit {
+	display: none;
+	margin: 20px auto;
+}
+
+#ticket {
+	font-family: 'Roboto Mono', monospace;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	width: 800px;
+	max-width: 80%;
+	margin: 20px auto;
+	align-self: center;
+	padding: 15px;
+	text-align: left;
+}
+
+#hello{
+	margin-top: 250px;
+}
+
+#new{
+	text-align: center;
+	
+}
+
+#signup{
+	margin-top: 150px;
+}
